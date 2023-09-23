@@ -3,7 +3,6 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
 
 # Define a function to perform OCR on the uploaded image
-@st.cache_data(allow_output_mutation=True)
 def perform_ocr(image):
     processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten')
     model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-handwritten')
