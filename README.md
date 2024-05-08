@@ -18,6 +18,4 @@ This project aims to bridge the gap between handwritten content and digital proc
 ### Disclaimer
 This project is for educational and demonstration purposes only. We do not guarantee the accuracy or reliability of the results produced by this system.
 
-For any inquiries, please contact us at `your.email@example.com`.
-
 Happy recognizing! 🖋️🤖
